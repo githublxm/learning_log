@@ -24,3 +24,5 @@ class Entry(models.Model):
             return self.text[:50] + "..."
         else:
             return self.text
+
+
